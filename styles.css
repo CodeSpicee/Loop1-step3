@@ -1,0 +1,117 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #0c8a4d;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  height: 100vh;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.simple-wheels {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  margin: auto;
+  padding: 0px 50px 160px 50px;
+  border-radius: 4px;
+  background-image: url(img/bicycle.png);
+  background-position: 5px 160px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.simple-wheels-heading {
+  display: grid;
+  /* flex-direction: row; */
+  grid-template-columns: auto 40px;
+  align-items: center;
+}
+
+.simple-heading-text {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin: 25px 0 0 0;
+}
+
+.heading {
+  margin: 0;
+}
+.simple-account-image {
+  align-self: center;
+  padding: 20px;
+}
+
+.simple-image {
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  border: 1px solid rgb(201, 200, 200);
+  height: 55%;
+  border-radius: 50%;
+}
+
+.simple-image:hover {
+  box-shadow: -1px -1px 10px #b7b6b6;
+}
+.simple-paragraph {
+  font-size: 1rem;
+  color: #b7b6b6;
+  font-weight: 600;
+}
+
+/* 
+product description */
+
+.product {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-template-columns: 1fr auto;
+  justify-content: space-between;
+}
+
+.product-name {
+  font-size: 1.2rem;
+  color: rgb(60, 60, 60);
+  font-weight: 500;
+  align-self: baseline;
+}
+/* 
+total of the product description */
+.total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product-total {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(60, 60, 60);
+  margin: 5px;
+}
+
+.currency {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.currency1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 4px;
+}
